@@ -1,0 +1,66 @@
+.bg-container{
+    width: 85%;
+    min-height:100vh;
+    margin: auto;
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.todo-heading{
+    color: rgba(244, 160, 4, 0.966);
+    font-weight: 700;
+    margin-top: 3rem;
+    font-size: 28px;
+}
+
+.input-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.add-task-input{
+    width: 90%;
+    background-color: #ffffff;
+    height: 40px;
+    padding-left: 16px;
+    outline: none;
+}
+
+.add-task-btn{
+    background-color: rgba(8, 8, 200, 0.878);
+    color: #ffffff;
+    font-family: 'Roboto';
+    padding: 8px 20px;
+}
+
+.add-task-btn:hover{
+    cursor: pointer;
+}
+
+.descrition{
+    color:rgba(255, 255, 255, 0.514);
+}
+
+.todo-item-container{
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.legend-heading{
+    color: rgba(255, 166, 0, 0.9);
+    font-weight: 600;
+    font-family: 'Roboto';
+}
+
+.todo-list-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem 0px;
+}
+

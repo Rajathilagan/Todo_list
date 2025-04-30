@@ -1,0 +1,33 @@
+.todo-list-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 1rem;
+}
+
+.task-completed{
+    text-decoration: line-through;
+}
+
+.task-pending{
+    text-decoration: none;
+}
+
+.task-pending:hover,.task-completed:hover{
+    background-color: rgba(139, 134, 134, 0.873);
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.delete-btn{
+    color: #ffffff;
+    background-color: red;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 4px;
+}
+
+.delete-btn:hover{
+    cursor: pointer;
+}
+
